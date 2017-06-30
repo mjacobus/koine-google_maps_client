@@ -2,6 +2,8 @@
 
 Google maps client for ruby
 
+[![Build Status](https://travis-ci.org/mjacobus/koine-google_maps_client.svg?branch=master)](https://travis-ci.org/mjacobus/koine-google_maps_client)
+
 ## Installation
 
 Add this line to your application's Gemfile:
