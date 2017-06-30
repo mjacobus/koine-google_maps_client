@@ -8,6 +8,7 @@ module Koine
 
     def initialize(api_key: nil, http_client: RestClient)
       @http_client = http_client
+      @api_key = api_key
     end
 
     def geocode(address:)

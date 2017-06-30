@@ -5,10 +5,6 @@ RSpec.describe Koine::GoogleMapsClient do
     described_class.new(api_key: ENV['API_KEY'])
   end
 
-  it "has a version number" do
-    expect(Koine::GoogleMapsClient::VERSION).not_to be nil
-  end
-
   describe '#geolocation' do
     it 'returns the geolocation of addresses' do
       address = 'Dammtorstraße 30, Hamburg'
