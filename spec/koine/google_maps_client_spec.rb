@@ -5,7 +5,7 @@ RSpec.describe Koine::GoogleMapsClient do
     described_class.new(api_key: ENV['API_KEY'])
   end
 
-  describe '#geolocation' do
+  describe '#geocode' do
     it 'returns the geolocation of addresses' do
       address = 'Dammtorstraße 30, Hamburg'
 
