@@ -5,6 +5,10 @@ Google maps client for ruby
 [![Build Status](https://travis-ci.org/mjacobus/koine-google_maps_client.svg?branch=master)](https://travis-ci.org/mjacobus/koine-google_maps_client)
 [![Code Climate](https://codeclimate.com/github/mjacobus/koine-google_maps_client/badges/gpa.svg)](https://codeclimate.com/github/mjacobus/koine-google_maps_client)
 [![Issue Count](https://codeclimate.com/github/mjacobus/koine-google_maps_client/badges/issue_count.svg)](https://codeclimate.com/github/mjacobus/koine-google_maps_client)
+[![Coverage Status](https://coveralls.io/repos/github/mjacobus/koine-google_maps_client/badge.svg)](https://coveralls.io/github/mjacobus/koine-google_maps_client)
+
+[![Gem Version](https://badge.fury.io/rb/koine-google_maps_client.svg)](https://badge.fury.io/rb/koine-google_maps_client)
+[![Dependency Status](https://gemnasium.com/badges/github.com/mjacobus/koine-google_maps_client.svg)](https://gemnasium.com/github.com/mjacobus/koine-google_maps_client)
 
 ## Installation
 
