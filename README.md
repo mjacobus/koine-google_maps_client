@@ -7,20 +7,22 @@ Google maps client for ruby
 Add this line to your application's Gemfile:
 
 ```ruby
+# Gemfile
 gem 'koine-google_maps_client'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install koine-google_maps_client
-
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'koine-google_maps_client'
+
+client = Koine::GoogleMapsClient.new(api_key: 'your-key')
+
+hash_response = client.geolocation(address: 'Dammtorstraße 30, Hamburg')
+```
+
+The response will be the hash representation of [this url](https://maps.googleapis.com/maps/api/geocode/json?address=Dammtorstra%C3%9Fe%2030,%2020354%20Hamburg&key=).
+
 
 ## Development
 
@@ -37,3 +39,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/mjacob
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
+## Resources
+
+- [Docs](https://developers.google.com/maps/documentation/)
+- [Geocoding](https://developers.google.com/maps/documentation/geocoding/start)
