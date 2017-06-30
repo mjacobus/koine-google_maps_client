@@ -1,4 +1,5 @@
 require "bundler/setup"
+require 'dotenv/load'
 require "koine/google_maps_client"
 
 RSpec.configure do |config|
